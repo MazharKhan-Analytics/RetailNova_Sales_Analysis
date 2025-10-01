@@ -1,7 +1,5 @@
 # RetailNova End-to-End Sales & Behavioral Analytics
 
-![RetailNova Dashboard](Visualizations/dashboard_snapshot.png)
-
 **Quick Project Snapshot:**  
 - **Total Revenue (last 12 months):** $12.5M  
 - **Top Product Category:** Electronics  
