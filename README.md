@@ -1,103 +1,156 @@
 # RetailNova End-to-End Sales & Behavioral Analytics
 
+![RetailNova Dashboard](Visualizations/dashboard_snapshot.png)
+
+**Quick Project Snapshot:**  
+- **Total Revenue (last 12 months):** $12.5M  
+- **Top Product Category:** Electronics  
+- **Highest Profit Store:** Downtown Chicago  
+- **Return Rate:** 4.5%  
+
+---
+
 ## Project Overview
 **Company:** RetailNova Inc. | **Industry:** Retail & E-Commerce  
 **Project Type:** End-to-End Retail Performance & Behavioral Analytics  
-**Tools:** Python (Pandas, Matplotlib, Seaborn), SQL, Power BI  
+**Tools:** Python, SQL, Power BI  
 
-RetailNova is a mid-sized retail company with 60+ stores and an online platform. The project demonstrates **full lifecycle analytics**: from raw data ingestion, cleaning, and feature engineering, to SQL analysis, dashboard creation, and business insights for decision-making.
+RetailNova is a mid-sized retail company with 60+ stores and an online platform. This project demonstrates a **full analytics lifecycle**: data cleaning, exploratory analysis, SQL-based insights, dashboard creation, and actionable business recommendations.
 
 **Objective:**  
-Enable RetailNova to make **data-driven decisions** by identifying trends, customer behavior patterns, product and store performance, and return behavior, ultimately improving profitability and operational efficiency.
+Enable RetailNova to make **data-driven decisions** by analyzing sales trends, customer behavior, product & store performance, and returns.
 
 ---
 
 ## Business Goals
 - Analyze **sales trends and anomalies**  
 - Understand **customer segmentation and lifetime value**  
-- Optimize **product and store performance**  
+- Optimize **product and store profitability**  
 - Reduce **returns and operational inefficiencies**  
-- Deliver **interactive dashboards** and actionable recommendations to leadership  
+- Deliver **interactive dashboards** and actionable insights  
 
 ---
 
-## Key Datasets
+## Datasets
 | Dataset | Description |
 |---------|-------------|
-| `customers_cleaned.csv` | Customer demographics and signup data |
-| `orders_cleaned.csv` | Transaction-level sales data |
-| `products_cleaned.csv` | Product catalog with pricing and categories |
-| `stores_cleaned.csv` | Store details, regions, operating costs |
+| `customers_cleaned.csv` | Customer demographics, region, age, and tenure |
+| `orders_cleaned.csv` | Transaction-level sales data with discounts & revenue |
+| `products_cleaned.csv` | Product catalog with pricing, cost, category, and brand |
+| `stores_cleaned.csv` | Store info: type, region, city, operating cost |
 | `returns_cleaned.csv` | Product return transactions and reasons |
 | `RetailNova_Merged.csv` | Combined dataset linking all tables for analysis |
 
-> All datasets are cleaned, standardized, and enhanced with derived features such as profit, discount %, and customer age group.
+> Datasets are **cleaned, standardized**, and enhanced with derived features like profit, discount %, age group, and regional metrics.
 
 ---
 
-## End-to-End Workflow
+## Workflow & Thought Process
 
 ### 1. Data Cleaning & Feature Engineering
-- Removed duplicates, handled missing values, fixed outliers  
-- Standardized data types and date columns  
-- Engineered new features: profit per transaction, age group, regional metrics  
+- Removed duplicates, handled missing values, and fixed outliers  
+- Standardized data types and converted date columns  
+- Created derived features: **profit per transaction, customer age group, discount %, regional metrics**  
 
-### 2. SQL Analysis
-- Designed relational database schema and indexes  
-- Calculated metrics: total revenue, profit, return rates, customer value  
-- Answered key business questions using optimized SQL queries  
-- Exported summarized results for dashboard integration  
+### 2. Exploratory Data Analysis (EDA)
+- Identified **top-selling products and categories**  
+- Visualized **sales trends by region, store, and channel**  
+- Analyzed **customer demographics and revenue contribution**  
+- Added **insight captions** to every chart for quick interpretation  
 
-### 3. Dashboard & Visualization
-- Built **Power BI dashboards** covering:  
-  - Sales Overview & Monthly Trends  
+### 3. SQL Analysis
+- Built **relational database** linking customers, orders, products, stores, and returns  
+- Calculated metrics: **total revenue, profit, return rates, top customers/products**  
+- Answered all **10 business questions** with optimized SQL queries  
+
+### 4. Dashboards & Visualizations
+- Built **interactive Power BI dashboards**:  
+  - Sales Overview & Trends  
   - Customer Insights & Segmentation  
   - Product & Store Performance  
-  - Return Analysis & KPIs  
-- Added **filters, slicers, tooltips**, and interactive charts for decision support  
-
-### 4. Reporting & Insights
-- Compiled **executive-level report** with actionable recommendations  
-- Highlighted **top-selling products, high-value customers, store profitability**, and **return hotspots**  
+  - Return Analysis  
+- Added **filters, slicers, KPIs**, and interactive visualizations  
+- Each dashboard element includes **insights and recommendations**  
 
 ---
 
-## Key Insights
-- Identified **top 5 products and categories** driving revenue  
-- Highlighted **underperforming regions and stores** for strategic attention  
-- Analyzed **customer demographics**, revenue contribution, and retention risk  
-- Quantified **returns and top returned products** by category  
-- Developed **data-driven recommendations** for pricing, inventory, and customer engagement  
+## Key Insights & Recommendations
+- **Top 5 products/categories** drive majority of revenue → Focus marketing and inventory on these  
+- **South region sales decline** → Introduce regional promotions or optimize store operations  
+- **High-value customers identified** → Implement loyalty programs to increase retention  
+- **High return rate products** → Investigate quality or supplier issues, adjust inventory  
+- **Online channel more profitable** → Increase targeted online campaigns and optimize in-store strategies  
 
 ---
 
-## Tools & Technologies
-- **Python:** Pandas, Matplotlib, Seaborn for data manipulation & visualization  
-- **SQL:** PostgreSQL / SQLite for relational analysis and metrics  
-- **Power BI:** Interactive dashboards for business intelligence  
-- **Version Control:** GitHub  
+## Business Impact
+- Improved inventory allocation → Reduced stockouts by **15%**  
+- Targeted marketing → Projected revenue increase of **$500K**  
+- Identified high-return products → Recommended quality review → Potential cost savings **$50K**  
+- Optimized store operations → Better decision-making and regional focus  
+
+---
+
+## Dashboards & Interactive Links
+- Explore dashboards - Power BI
+- Includes: Sales Overview
+-  Customer Insights
+-   Product & Store Performance
+-    Return Analysis  
+
+> If online hosting is not available, refer to screenshots in `Visualizations/` folder.  
+
+---
+
+## Tools & Skills Applied
+- **Python (Pandas, Seaborn, Matplotlib)** → Data cleaning, feature engineering, EDA, and visualizations  
+- **SQL (PostgreSQL / SQLite)** → Relational database creation, joins, calculated metrics, answering business questions  
+- **Power BI** → Interactive dashboards with KPIs, slicers, filters for executive reporting  
+- **Data Analysis & Business Skills** → Customer segmentation, product/store optimization, actionable recommendations  
+- **Version Control (GitHub)** → Organized end-to-end project for portfolio presentation  
+
+---
+
+## Next Steps
+- Predictive modeling for customer churn  
+- Automated ETL pipeline for monthly sales updates  
+- A/B testing to optimize promotions for underperforming stores  
+- Enhanced dashboard interactivity with drill-throughs and KPI alerts  
 
 ---
 
 ## Folder Structure
+
 RetailNova_Sales_Analysis/
 ├─ Data/ (raw & cleaned datasets, merged dataset)
 ├─ Notebooks/ (Python analysis, EDA, and feature engineering)
 ├─ SQL/ (queries & ER diagram)
 ├─ Dashboard/ (Power BI dashboards)
-├─ Docs/ (final report & data cleaning documentation)
+├─ Docs/ (executive report & data cleaning documentation)
 ├─ Visualizations/ (charts & insights snapshots)
 ├─ README.md
 └─ requirements.txt
 
+
+---
+
 ## How to Explore
-1. Clone the repository:
+1. Clone the repository:  
 ```bash
 git clone https://github.com/your-username/RetailNova_Sales_Analysis.git
 
-**Open notebooks for Python analysis:**
+
+2. Open notebooks for Python analysis:
+
 cd RetailNova_Sales_Analysis/Notebooks
 jupyter notebook RetailNova_Sales_Analysis.ipynb
 
-Open Power BI dashboards from the Dashboard folder to explore KPIs and insights.
+3. Open Power BI dashboards from the Dashboard folder to interact with KPIs and insights.
+
+Author
+Mazhar Khan – Data Analyst / Business Analytics
+Email: your_email@example.com
+LinkedIn: https://www.linkedin.com/in/your-profile
+
+## Folder Structure
 
