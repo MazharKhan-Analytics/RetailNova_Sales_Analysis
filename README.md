@@ -142,5 +142,4 @@ Mazhar Khan – Data Analyst / Business Analytics
 Email: your_email@example.com
 LinkedIn: https://www.linkedin.com/in/your-profile
 
-## Folder Structure
 
