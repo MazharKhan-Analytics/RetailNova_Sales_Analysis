@@ -81,33 +81,25 @@ Enable RetailNova to make **data-driven decisions** by analyzing sales trends, c
 
 ---
 
+##  Dashboard Snapshots  
+
 ### 1. Sales Overview  
-*Key Metrics:* Total Sales, Profit, Quantity Sold, Avg. Discount  
-![Sales Overview](Visualizations/sales_overview.jpg)  
+![Sales Overview](Visualizations/Sales%20Overview.JPG)  
 
----
+### 2. Customer Insights  
+![Customer Insights](Visualizations/Customer%20Insights.JPG)  
 
-### 2. Regional Performance  
-*Business Impact:* Helped identify top-performing regions and underperforming ones for targeted strategy.  
-![Regional Performance](Visualizations/regional_performance.jpg)  
+### 3. Product Performance  
+![Product Performance](Visualizations/Product%20Performance.JPG)  
 
----
+### 4. Return Analysis  
+![Return Analysis](Visualizations/Returun%20Analysis.JPG)  
 
-### 3. Category & Sub-Category Insights  
-*Key Metrics:* Category-wise revenue, sub-category contribution, profit margin trends.  
-![Category Insights](Visualizations/category_performance.jpg)  
+### 5. Store Analysis  
+![Store Analysis](Visualizations/Store%20Analysis.JPG)  
 
----
-
-### 4. Customer & Returns Analysis  
-*Business Impact:* Improved understanding of customer loyalty and returns patterns to reduce loss.  
-![Customer Analysis](Visualizations/customer_returns.jpg)  
-
----
-
-### 5. Forecasting  
-*Key Insight:* Predicted upcoming quarter’s sales and demand trends using time-series analysis.  
-![Forecasting](Visualizations/sales_forecast.jpg)  
+### 6. Full Dashboard View  
+![Dashboard](Visualizations/Dashboard.JPG)  
 
 > If online hosting is not available, refer to screenshots in `Visualizations/` folder.  
 
