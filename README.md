@@ -1,13 +1,5 @@
 # RetailNova End-to-End Sales & Behavioral Analytics
 
-**Quick Project Snapshot:**  
-- **Total Revenue (last 12 months):** $12.5M  
-- **Top Product Category:** Electronics  
-- **Highest Profit Store:** Downtown Chicago  
-- **Return Rate:** 4.5%  
-
----
-
 ## Project Overview
 **Company:** RetailNova Inc. | **Industry:** Retail & E-Commerce  
 **Project Type:** End-to-End Retail Performance & Behavioral Analytics  
