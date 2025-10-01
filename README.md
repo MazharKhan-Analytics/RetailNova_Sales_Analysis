@@ -81,12 +81,33 @@ Enable RetailNova to make **data-driven decisions** by analyzing sales trends, c
 
 ---
 
-## Dashboards & Interactive Links
-- Explore dashboards - Power BI
-- Includes: Sales Overview
--  Customer Insights
--   Product & Store Performance
--    Return Analysis  
+### 1. Sales Overview  
+*Key Metrics:* Total Sales, Profit, Quantity Sold, Avg. Discount  
+![Sales Overview](Visualizations/sales_overview.jpg)  
+
+---
+
+### 2. Regional Performance  
+*Business Impact:* Helped identify top-performing regions and underperforming ones for targeted strategy.  
+![Regional Performance](Visualizations/regional_performance.jpg)  
+
+---
+
+### 3. Category & Sub-Category Insights  
+*Key Metrics:* Category-wise revenue, sub-category contribution, profit margin trends.  
+![Category Insights](Visualizations/category_performance.jpg)  
+
+---
+
+### 4. Customer & Returns Analysis  
+*Business Impact:* Improved understanding of customer loyalty and returns patterns to reduce loss.  
+![Customer Analysis](Visualizations/customer_returns.jpg)  
+
+---
+
+### 5. Forecasting  
+*Key Insight:* Predicted upcoming quarter’s sales and demand trends using time-series analysis.  
+![Forecasting](Visualizations/sales_forecast.jpg)  
 
 > If online hosting is not available, refer to screenshots in `Visualizations/` folder.  
 
