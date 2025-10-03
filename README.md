@@ -3,9 +3,9 @@
 ## Project Overview
 **Company:** RetailNova Inc. | **Industry:** Retail & E-Commerce  
 **Project Type:** End-to-End Retail Performance & Behavioral Analytics  
-**Tools:** Python, SQL, Power BI  
+**Tools:** Python, SQL, Power BI 
 
-RetailNova is a mid-sized retail company with 60+ stores and an online platform. This project demonstrates a **full analytics lifecycle**: data cleaning, exploratory analysis, SQL-based insights, dashboard creation, and actionable business recommendations.
+RetailNova is an internship project at **Analyticspace**, its a mid-sized retail company with 60+ stores and an online platform. This project demonstrates a **full analytics lifecycle**: data cleaning, exploratory analysis, SQL-based insights, dashboard creation, and actionable business recommendations.
 
 **Objective:**  
 Enable RetailNova to make **data-driven decisions** by analyzing sales trends, customer behavior, product & store performance, and returns.
