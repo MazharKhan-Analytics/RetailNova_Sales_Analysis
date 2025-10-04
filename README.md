@@ -152,7 +152,7 @@ jupyter notebook RetailNova_Sales_Analysis.ipynb
 
 Author
 Mazhar Khan – Data Analyst / Business Analytics
-Email: your_email@example.com
-LinkedIn: https://www.linkedin.com/in/your-profile
+LinkedIn: www.linkedin.com/in/mazhar-khan-7a52a620a
+Email: iammazhar619@gmail.com
 
 
